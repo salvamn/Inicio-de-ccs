@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Salvador Mellado</title>
+</head>
+<body>
+    
+</body>
+    <h1>Sistema Solar</h1>
+
+    <img src="https://www.etapainfantil.com/wp-content/uploads/2019/03/planetas-sistema-solar.png" alt="Imagen no disponible" >
+
+    <ol>
+        <li>Jupiter</li>
+        <li>Saturno</li>
+        <li>Urano</li>
+        <li>Neptuno</li>
+        <li>Tierra</li>
+        <li>Venus</li>
+        <li>Marte</li>
+        <li>Mercurio</li>
+    </ol>
+
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Numero</th>
+                <th rowspan="2">Nombre Astro</th>
+                <th>Descripcion del dios</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>1</th>
+                <td>Jupiter</td>
+                <td>es el principal dios de la mitología romana, padre de dioses y de hombres (pater deorum et hominum). Su equivalente griego es Zeus</td>
+            </tr>
+
+            <tr>
+                <th>2</th>
+                <td>Saturno</td>
+                <td>Saturno a​ es un dios de la agricultura y la cosecha de la mitología romana. Fue identificado en la Antigüedad con el titán griego Cronos</td>
+            </tr>
+
+            <tr>
+                <th>3</th>
+                <td>Urano</td>
+                <td>En la mitología griega, Urano (en griego antiguo, Οὐρανός, Ouranos «(el) Cielo», latinizado como Uranus) es un dios y titán personificador del cielo. Su equivalente en la mitología romana era Caelus</td>
+            </tr>
+
+            <tr>
+                <th>4</th>
+                <td>Neptuno</td>
+                <td>Neptuno es un dios de la mitología romana, pero proveniente de la mitología griega, hijo de los dioses Saturno y Ops, hermano de Júpiter y Plutón. Gobierna todas las aguas y mares y cabalga las olas sobre caballos blancos.</td>
+            </tr>
+
+            <tr>
+                <th>5</th>
+                <td>Tierra</td>
+                <td>Tellus o Terra (‘tierra’ en latín) era una diosa que personificaba la Tierra en la mitología romana. A veces era llamada como Tellus Mater o Terra Mater, siendo Mater un título honorífico aplicado también a otras diosas.</td>
+            </tr>
+
+            <tr>
+                <th>6</th>
+                <td>Venus</td>
+                <td>Venus fue la diosa del amor, la belleza y la fertilidad de la mitología romana a quien se adoraba y festejaba en muchas fiestas y mitos religiosos romanos. Desde el siglo III a. C., la creciente helenización de las clases altas romanas la identificó con la diosa griega Afrodita.</td>
+            </tr>
+
+            <tr>
+                <th>7</th>
+                <td>Marte</td>
+                <td>En la mitología romana, Marte, en latín Mārs, tenía muchos atributos, era el dios de la guerra, la virilidad masculina, la violencia, la pasión, la sexualidad, el derramamiento de sangre, la valentía, patrón de los guerreros romanos, del horror y victoria en las guerras, la perfección y la belleza.</td>
+            </tr>
+
+            <tr>
+                <th>8</th>
+                <td>Mercurio</td>
+                <td>En la mitología romana, Mercurio (en latín, Mercurius) era un importante dios del comercio, hijo de Júpiter y de Maia Maiestas. Su nombre está relacionado con la palabra latina merx (‘mercancía’). En sus formas más antiguas, parece haber estado relacionado con la deidad etrusca Turms, pero la mayoría de sus características y mitología se tomó prestada del dios griego análogo Hermes.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    
+    <form>
+        <h2>Danos tu opinion</h2>
+        Nombre
+        <input type="text" name="fnombre" id="cajaNombre" class="cajaForm cajaTextForm" placeholder="Salvador"> <br>
+        Apellido
+        <input type="text" name="fapellido" id="cajaApellido" class="cajaForm cajaTextForm" placeholder="Mellado"> <br>
+        Email
+        <input type="email" name="fmail" id="cajaEmail" class="cajaForm cajaTextForm" placeholder="nombre@gmail.com"> <br>
+
+        Seleccione su planeta favorito <br>    
+        <select name="fselect" class="cajaTextForm">
+            <option value="jupiter">Jupiter</option>
+            <option value="saturno">Saturno</option>
+            <option value="urano">Urano</option>
+            <option value="neptuno">Neptuno</option>
+            <option value="tierra">Tierra</option>
+            <option value="venus">Venus</option>
+            <option value="marte">Marte</option>
+            <option value="mercurio">Mercurio</option>
+        </select><br>
+
+        ¿ Por que es tu planeta favorito ?<br>
+        <textarea name="fcomentarios" class="cajaTextForm" cols="70" rows="10" placeholder="Por que es uno de los mas bonitos"></textarea><br>
+        <!--<button name="fboton">Enviar</button>-->
+        <input type="submit" id="fboton">
+    </form>
+</html>

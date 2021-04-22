@@ -1,0 +1,56 @@
+body{
+    background: #151515;
+    color: #bb3636;
+}
+
+
+h1{
+    /* CSS */
+    color: #bb3636;
+    font-size: 50px;
+    text-align: center;
+}
+
+img{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+ol{
+    list-style: square;
+    
+}
+
+table, th, td{
+    border: 2px solid rgb(32, 32, 53);
+}
+
+form{
+    background: #151515;
+    color: white;
+    /*width: min-content;*/
+    text-align: center;
+}
+
+#fboton{
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    background: crimson;
+    color: white;
+}
+
+.cajaTextForm{
+    border: none;
+    border-radius: 10px;
+
+}
+
+.cajaForm{
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+

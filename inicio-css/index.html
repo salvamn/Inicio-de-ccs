@@ -8,6 +8,34 @@
     <title>CSS</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <form action="" id="formulario">
+        <h2>Formulario</h2>
+
+        <p>Introduce tu nombre</p> <p class="p-rojo">(requerido)</p>
+        <input type="text" name="f-nombre" class="cajaTextForm" required placeholder="ej. Salvador">
+        <p>Mensaje</p> <p class="p-rojo">(requerido)</p>
+        <input type="text" name="f-mensaje" class="cajaTextForm" required placeholder="ej. Hola como estan">
+
+        <p>Selecciona el color de tu icono</p> <br>
+        <p><input type="radio" name="f-radio-color" value="rojo">Rojo</p>
+        <p><input type="radio" name="f-radio-color" value="verde">Verde</p>
+        <p><input type="radio" name="f-radio-color" value="azul">Azul</p>
+
+        <hr>
+
+        <p>Selecciona los dias con disponibilidad</p> <br>
+        <p><input type="checkbox" name="disponibilidad" value="">Lunes</p>
+        <p><input type="checkbox" name="disponibilidad" value="">Martes</p>
+        <p><input type="checkbox" name="disponibilidad" value="">Miercoles</p>
+        <p><input type="checkbox" name="disponibilidad" value="">Jueves</p>
+        <p><input type="checkbox" name="disponibilidad" value="">Viernes</p>
+
+        <hr>
+
+        <input type="submit" id="f-boton-form">
+
+
+
+    </form>
 </body>
 </html>

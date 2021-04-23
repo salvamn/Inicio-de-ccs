@@ -1,3 +1,76 @@
-h1{
-    color: rgb(102, 35, 46);
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+    background: black;
+}
+
+
+#formulario{
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    width: 30%;
+    height: 405px;
+    background: #303030;
+    color: #d3d3d3;
+}
+
+.cajaTextForm{
+    margin: 5px 10px 10px 10px;
+    /*margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;*/
+    background: #FFFFFF;
+    width: 95%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.p-rojo{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    color: #D04638;
+    font-size: 13px;
+}
+
+#f-boton-form{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 97%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: #1b97d4;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+form, h2{
+    background-color: #464545;
+    width: 100%;
+}
+
+h2{
+    width: auto;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+p{
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    margin-top: 5px;
+}
+
+hr{
+    margin: 5px;
 }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-dos.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="" id="formulario">
+        <h2>Bienvenidos</h2>
+        
+
+        <label for="nombre" class="fLabel">Ingrese su nombre</label>
+        <p class="pRequerido">(requerido)</p>
+        <input type="text" name="f-nombre" id="nombre" class="cajaTextForm" required placeholder="ej. Salvador"><br>
+        <label class="fLabel">Comentario</label>
+        <p class="pRequerido">(requerido)</p>
+        <textarea name="f-text-area" class="cajaTextAreaForm" required placeholder="ej. Hola Mundo"></textarea>
+
+        
+        <p class="parrafoForm">Seleccione el color de su icono</p>
+        <input type="radio" name="f-radio-color" class="radioForm" value="rojo">Rojo
+        <input type="radio" name="f-radio-color" class="radioForm" value="verde">Verde
+        <input type="radio" name="f-radio-color" class="radioForm" value="azul">Azul
+
+
+        <p class="parrafoForm">Seleccione los dias con disponibilidad</p>
+        <input type="checkbox" name="f-chekeked" class="checkForm">Lunes
+        <input type="checkbox" name="f-chekeked" class="checkForm">Martes
+        <input type="checkbox" name="f-chekeked" class="checkForm">Miercoles
+        <input type="checkbox" name="f-chekeked" class="checkForm">Jueves
+        <input type="checkbox" name="f-chekeked" class="checkForm">Viernes
+
+
+        <input type="submit" id="f-boton">
+    </form>
+</body>
+</html>

@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Poppins, sans-serif;
+}
+
+h2{
+    background: #303030;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#formulario{
+    background: #151515;
+    display: block;
+    margin: auto;
+    width: 40%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.fLabel{
+    margin-left: 5%;
+}
+
+.pRequerido{
+    display: inline-block;
+    color: #D04638; /*#D04638 #f0331d*/
+    font-size: 12px;
+    margin: 5px;
+}
+
+.cajaTextForm{
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 30px;
+    border: 0px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.cajaTextAreaForm{
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 150px;
+    outline: none;
+    border: 0px;
+    border-radius: 5px;
+
+}
+
+.parrafoForm{
+    display: block;
+    margin-bottom: 3px;
+    margin-left: 5%;
+
+}
+
+.radioForm{
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 2%;
+    margin-left: 5%;
+}
+
+.checkForm{
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+#f-boton{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    background: #0366D6;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,82 @@
+body{
+    background: black;
+    font-family: Segoe UI,SegoeUI,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #2C2C2C;
+}
+
+#formulario{
+    background: #FFFFFF;    
+    box-shadow: #686262 5px 5px 1000px; /* #e63939 #473a3a */
+    display: block;
+    margin: auto;
+    width: 30%;
+    margin-top: 5%;
+    padding-top: 5px;
+    padding-bottom: 1%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h2{
+    color: #2C2C2C;
+    text-align: center;
+}
+
+.f-input{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 95%;
+    height: 35px;
+    background: #FFFFFF;
+    border: 1px solid #999999;
+    border-radius: 10px;
+    outline: none;
+
+}
+
+::placeholder{
+    color: rgb(231, 79, 79);
+    padding-left: 2%;
+}
+
+p{
+    margin: 10px 3% 0px 3%; /* top | right | bottom | left */
+    font-weight: 700;
+}
+
+.f-radio{
+    margin: 8px 1% 8px 3%;
+}
+
+.f-checkbox{
+    margin-top: 8px;
+    margin-left: 3%;
+}
+
+#f-text-area{
+    display: block;
+    margin: auto;
+    width: 95%;
+    height: 100px;
+    background: #FFFFFF; /* #F7F7F7 */
+
+    border: 1px solid #999999;
+    border-radius: 10px;
+    outline: none;
+    resize: none;
+}
+
+.f-boton-enviar{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    width: 95%;
+    height: 35px;
+    border: 1px solid #999999;
+    border-radius: 10px;
+    outline: none;
+    background: #303030;
+    color: white;
+    cursor: pointer;
+}

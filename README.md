@@ -1,10 +1,11 @@
 # Inicio-de-ccs
 
 ## Formulario V1
-![image](https://user-images.githubusercontent.com/61121429/115813743-b8d64d80-a3c1-11eb-9cde-9410bfe29896.png)
+<img src="https://user-images.githubusercontent.com/61121429/116587680-b061a380-a8e8-11eb-8961-00ddd822c19b.png" width="600">
 
 
 
 ## Formulario V2
 
-![image](https://user-images.githubusercontent.com/61121429/115812060-c63e0880-a3be-11eb-8085-666c60a82d2a.png)
+![image](https://user-images.githubusercontent.com/61121429/116587866-dedf7e80-a8e8-11eb-9cf8-1d87d12b5be5.png)
+
